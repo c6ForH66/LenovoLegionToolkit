@@ -13,8 +13,7 @@
     Height="750"
     MinWidth="650"
     MinHeight="600"
-    FlowDirection="{x:Static utils:LocalizationHelper.Direction}"
->
+    FlowDirection="{x:Static utils:LocalizationHelper.Direction}">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -82,14 +81,13 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <wpfui:NavigationStore
+            <wpfui:NavigationView
                 x:Name="_navigationStore"
                 Grid.Column="0"
                 Margin="0,0,12,12"
-                Frame="{Binding ElementName=_rootFrame}"
                 SelectedPageIndex="0">
 
-                <wpfui:NavigationStore.Items>
+                <wpfui:NavigationView.Items>
                     <custom:NavigationItem
                         Content="{x:Static resources:Resource.MainWindow_NavigationItem_Dashboard}"
                         Icon="Home24"
@@ -121,9 +119,9 @@
                         Icon="Box24"
                         PageTag="packages"
                         PageType="{x:Type pages:PackagesPage}" />
-                </wpfui:NavigationStore.Items>
+                </wpfui:NavigationView.Items>
 
-                <wpfui:NavigationStore.Footer>
+                <wpfui:NavigationView.Footer>
                     <custom:NavigationItem
                         Content="{x:Static resources:Resource.MainWindow_NavigationItem_Settings}"
                         Icon="Settings24"
@@ -139,9 +137,9 @@
                         Icon="Info24"
                         PageTag="about"
                         PageType="{x:Type pages:AboutPage}" />
-                </wpfui:NavigationStore.Footer>
+                </wpfui:NavigationView.Footer>
 
-            </wpfui:NavigationStore>
+            </wpfui:NavigationView>
 
             <Border
                 Grid.Column="1"

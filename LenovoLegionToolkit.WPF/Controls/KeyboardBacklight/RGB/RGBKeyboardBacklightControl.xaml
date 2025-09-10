@@ -140,7 +140,7 @@
                     <wpfui:MenuItem
                         Click="SynchroniseZonesMenuItem_Click"
                         Header="Synchronise zones"
-                        SymbolIcon="ArrowsBidirectional24" />
+                        Icon="ArrowsBidirectional24" />
                 </ContextMenu>
             </custom:CardControl.ContextMenu>
             <controls:ColorPickerControl x:Name="_zone1ColorPicker" ColorChangedDelayed="CardControl_Changed" />
@@ -162,7 +162,7 @@
                     <wpfui:MenuItem
                         Click="SynchroniseZonesMenuItem_Click"
                         Header="Synchronise zones"
-                        SymbolIcon="ArrowsBidirectional24" />
+                        Icon="ArrowsBidirectional24" />
                 </ContextMenu>
             </custom:CardControl.ContextMenu>
             <controls:ColorPickerControl x:Name="_zone2ColorPicker" ColorChangedDelayed="CardControl_Changed" />
@@ -184,7 +184,7 @@
                     <wpfui:MenuItem
                         Click="SynchroniseZonesMenuItem_Click"
                         Header="Synchronise zones"
-                        SymbolIcon="ArrowsBidirectional24" />
+                        Icon="ArrowsBidirectional24" />
                 </ContextMenu>
             </custom:CardControl.ContextMenu>
             <controls:ColorPickerControl x:Name="_zone3ColorPicker" ColorChangedDelayed="CardControl_Changed" />
@@ -206,7 +206,7 @@
                     <wpfui:MenuItem
                         Click="SynchroniseZonesMenuItem_Click"
                         Header="Synchronise zones"
-                        SymbolIcon="ArrowsBidirectional24" />
+                        Icon="ArrowsBidirectional24" />
                 </ContextMenu>
             </custom:CardControl.ContextMenu>
             <controls:ColorPickerControl x:Name="_zone4ColorPicker" ColorChangedDelayed="CardControl_Changed" />

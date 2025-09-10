@@ -30,8 +30,7 @@
             Grid.Row="0"
             CanMaximize="false"
             ShowMaximize="false"
-            ShowMinimize="false"
-            UseSnapLayout="false" />
+            ShowMinimize="false" />
 
         <Grid
             Grid.Row="0"
@@ -347,11 +346,10 @@
                 Content="{x:Static resources:Resource.SaveAndClose}" />
         </Grid>
 
-        <wpfui:Snackbar
+        <wpfui:SnackbarPresenter
             x:Name="_snackBar"
             Grid.Row="1"
             HorizontalAlignment="Center"
-            CloseButtonEnabled="True"
             Icon="ErrorCircle24"
             Timeout="5000" />
 

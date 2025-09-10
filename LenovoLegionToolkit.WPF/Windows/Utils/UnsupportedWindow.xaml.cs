@@ -6,7 +6,7 @@ using System.Windows.Input;
 
 namespace LenovoLegionToolkit.WPF.Windows.Utils;
 
-public partial class UnsupportedWindow
+public partial class UnsupportedWindow : BaseWindow
 {
     private readonly TaskCompletionSource<bool> _taskCompletionSource = new();
 

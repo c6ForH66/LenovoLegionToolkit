@@ -28,8 +28,7 @@
             Grid.Row="0"
             CanMaximize="false"
             ShowMaximize="false"
-            ShowMinimize="false"
-            UseSnapLayout="false" />
+            ShowMinimize="false" />
 
         <Grid
             Grid.Row="0"
@@ -150,11 +149,10 @@
 
         </wpfui:DynamicScrollViewer>
 
-        <wpfui:Snackbar
+        <wpfui:SnackbarPresenter
             x:Name="_snackBar"
             Grid.Row="1"
             HorizontalAlignment="Center"
-            CloseButtonEnabled="False"
             Icon="Checkmark24"
             Timeout="1000" />
     </Grid>
